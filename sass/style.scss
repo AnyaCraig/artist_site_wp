@@ -1,0 +1,64 @@
+/*!
+* Theme Name: Anya Craig Starter Theme - Artist Site
+* Theme URI: http://www.anyacraig.com;
+* Description: Personal starter theme for an artist's porfoio site.
+* Version: 1.0
+* Author: Anya Craig
+* Author URI: http://www.anyacraig.com
+*/
+
+@import 'normalize';
+@import 'typography';
+@import 'navigation';
+@import 'sidebar';
+@import 'comments';
+@import 'footer';
+@import 'breakpoints';
+@import 'variables';
+@import 'gallery';
+@import 'slider';
+@import 'home';
+
+/*
+====================================
+Default Styling
+====================================
+*/
+
+img {
+	max-width: 100%;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	height: 100%;
+	border: 2px solid red;
+	color: $night;
+	background: $moonlight;
+    margin: 0 0 $footer-height 0; /* bottom = footer height */
+}
+
+.container {
+	// max-width: 1200px;
+	// margin: 0 auto;
+	margin: 0;
+	border: 2px solid green;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-top: 50px;
+	align-items: stretch;
+}
+
+.content {
+	width: 75%;
+}
+
+.full {
+	width: 100%;
+}

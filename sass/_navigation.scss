@@ -1,0 +1,20 @@
+ul.menu, .menu ul {
+	margin: 0;
+	padding: 0;
+
+	li {
+		display: inline-block;
+		padding: 0px 5px;
+
+		a {
+			padding: 10px;
+			background: $darkglen;
+			color: $moonlight;
+			display: block;
+
+			&:hover {
+				background: $glen;
+			}
+		}
+	}
+}

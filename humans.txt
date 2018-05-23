@@ -1,0 +1,17 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Lead developer: Anya Craig
+  Site: anyacraig.com
+  Twitter: @AnyaCraig
+  Location: Toronto, Ontario
+
+/* THANKS */
+  WordPress starter theme from HackerYou - http://hackeryou.com
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery
+  Software: WordPress

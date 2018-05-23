@@ -1,0 +1,12 @@
+$home-flickity-height: 80vh;
+
+
+.home-slider {
+	border: 2px solid purple;
+	// max-height: $home-flickity-height;
+	// width: 70%;
+
+	.flickity-viewport {
+		// max-height: $home-flickity-height;
+	}
+}

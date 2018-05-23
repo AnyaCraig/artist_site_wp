@@ -1,0 +1,29 @@
+/* Styles for the gallery listing page */
+
+.gallery-listing {
+	padding: 0 25px;
+	width: 75%;
+	float: left;
+
+	/* Masonry container */
+	.masonry { 
+	    column-count: 2;
+	    column-gap: 1em;
+	}
+
+	/* Masonry bricks - artwork previews */
+	.artwork-preview-container { 
+	    background-color: #eee;
+	    display: inline-block;
+	    margin: 0 0 1em;
+	    width: 100%;
+
+		img {
+			display: block;
+		}
+
+		.artwork-info {
+			display: none;
+		}
+	}
+}
